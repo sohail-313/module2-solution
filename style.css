@@ -1,0 +1,62 @@
+.container{
+    /* background-color: brown; */
+}
+h1{
+    text-align: center;
+}
+.box{
+    border: 2px solid black;
+    background-color: rgb(139, 134, 134);
+    padding: 10px;
+    position: relative;
+   margin: 10px;
+}
+.h1{
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+    background-color:rgb(199, 118, 131) ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    width: 100px;
+    text-align: center;
+}
+.h2{
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+   background-color:red ;
+   color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    width: 100px;
+    text-align: center;
+}
+.h3{
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+   background-color: cornsilk;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    width: 100px;
+    text-align: center;
+}
+@media (min-width : 992px){
+    .col-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width : 768px) and (max-width : 990px){
+    .col-6{
+        float: left;
+        width: 50%;
+    }
+    .lg{
+        width: 100%;
+    }
+}
